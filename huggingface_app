@@ -1,11 +1,11 @@
-mport pathlib
+import pathlib
 temp = pathlib.PosixPath
 pathlib.WindowsPath = pathlib.PosixPath
 
 
 import gradio as gr
 from fastai.vision.all import *
-import skimage
+import skimagehttps://github.com/asampaiosoares/fluorescence_identification_algorithm/blob/main/huggingface_app
 
 learn = load_learner('export.pkl')
 
